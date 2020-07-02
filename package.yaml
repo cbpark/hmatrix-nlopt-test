@@ -1,0 +1,23 @@
+name:         hmatrix-nlopt-test
+version:      "0.0.0.0"
+author:       Chan Beom Park
+maintainer:   cbpark@gmail.com
+license-file: LICENSE
+github:       cbpark/hmatrix-nlopt-test
+category:     Numerical
+
+ghc-options:  -Wall
+
+dependencies:
+  - base >= 4.12.0.0 && < 5
+  - hmatrix
+  - hmatrix-nlopt
+
+executables:
+  test1:
+    main: test1.hs
+    source-dirs: src
+
+  test2:
+    main: test2.hs
+    source-dirs: src
